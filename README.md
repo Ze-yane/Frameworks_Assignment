@@ -10,6 +10,23 @@ We will perform data cleaning, preparation, analysis, and visualization to under
 - Identify top journals and sources  
 - Analyze frequent words in paper titles (table, bar chart, word cloud)
 
+
+Requirements
+
+Python 3.8+
+
+pandas
+
+matplotlib
+
+seaborn
+
+streamlit
+
+wordcloud
+
+jupyter
+
 Usage
 1. Run Jupyter Notebook
 
