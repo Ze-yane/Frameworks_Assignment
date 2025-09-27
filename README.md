@@ -11,9 +11,9 @@ We will perform data cleaning, preparation, analysis, and visualization to under
 - Analyze frequent words in paper titles (table, bar chart, word cloud)
 
 
-Requirements
+Tools used
 
-Python 3.8+
+Python 3.7+
 
 pandas
 
