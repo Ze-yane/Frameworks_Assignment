@@ -9,6 +9,22 @@ import re
 # Set the page title and layout
 st.set_page_config(page_title="Exploring the CORD-19 Metadata", layout="wide")
 
+st.markdown(
+    """
+    This Streamlit app provides an **interactive exploration** of the 
+    [CORD-19 dataset](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge).
+
+    You can:
+    - Filter papers by **year range** using the sidebar.
+    - See the number of **publications over time**.
+    - Explore the **top journals and sources** publishing COVID-19 research.
+    - Analyze **frequent words in paper titles** (shown in table + word cloud).
+    - Preview a **sample of records** from the dataset.
+
+    Use the filters in the sidebar to customize the view.
+    """
+)
+
 # Function to load the dataset (cached for performance)
 @st.cache_data
 def load_data():
