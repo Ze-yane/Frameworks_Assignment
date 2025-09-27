@@ -43,7 +43,7 @@ streamlit run app.py
 
 🗂 Dataset
 
-Source: Kaggle - CORD-19 Research Metadata
+Source: Kaggle - CORD-19 Research Challenge Metadata
 
 Sample used: 4000 rows for faster exploration
 
